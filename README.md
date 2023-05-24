@@ -55,6 +55,7 @@ Create a directory and use the name of the organisation, all lower case letters.
 All organization logos must be in JPG format and have dimensions of 300x300 pixels.
 
 Example:
+```
 .
 ├── bitcoin
 │   ├── logo.jpg
@@ -62,7 +63,7 @@ Example:
 ├── ethereum
 │   ├── logo.jpg
 │   └── info.json
-
+```
 
 ## License
 
