@@ -55,9 +55,8 @@ We welcome contributions from the community! To contribute to this project, plea
 
 **You can copy the template folder directly and modify it directly.**
 
-Create a directory and use the name of the organisation, all lower case letters.
-
-All organization logos must be in **JPG/PNG** format and have dimensions of **300x300 pixels**.
+* Create a directory using the organization's name, with all letters in lowercase. If there are spaces in the name, use _ instead.
+* All organization logos must be in **JPG/PNG** format and have dimensions of **300x300 pixels**.
 
 Example:
 ```
@@ -66,6 +65,9 @@ Example:
 │   ├── logo.jpg
 │   └── info.json
 ├── ethereum
+│   ├── logo.jpg
+│   └── info.json
+├── ethereum_name_service
 │   ├── logo.jpg
 │   └── info.json
 ```
