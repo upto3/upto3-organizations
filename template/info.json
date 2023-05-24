@@ -1,0 +1,33 @@
+{
+    "logo": "/logo.png",
+    "name": "Bitcoin",
+    "token": "BTC",
+    "intro": "Decentralized digital currency",
+    "links": [
+        {
+            "title": "Website",
+            "url": ""
+        },
+        {
+            "title": "Twitter",
+            "url": ""
+        },
+        {
+            "title": "Discord",
+            "url": ""
+        },
+	{
+	    "title": "Github",
+	    "url": ""
+	},
+	{
+	    "title": "Medium",
+	    "url": ""
+	},
+	{
+	    "title": "Telegram",
+	    "url": ""
+	}
+    ],
+    "introduce": ""
+}
