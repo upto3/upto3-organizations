@@ -1,12 +1,14 @@
 # Upto3 Organizations
 
-This project designed to manage and standardize all organizational information for Upto3. The goal is to provide an open-source platform for managing the organizational structure upon which event submissions depend.
+This project designed to manage and standardize all organizational information for Upto3. 
+
+The goal is to provide an open-source platform for managing the organizational structure upon which event submissions depend.
 
 ## Organization JSON Format
 
 Organizations are represented in JSON format with the name info.json and has the following properties:
 
-- `logo`: a string representing the path to the organization's logo, in 100x100 PNG format
+- `logo`: a string representing the path to the organization's logo, in 300x300 JPG format
 - `name`: a string representing the organization's name
 - `token`: a string representing the organization's token, if it does not exist, please fill in `null`
 - `intro`: a string providing a brief introduction to the organization, 20 characters or less
@@ -51,8 +53,11 @@ We welcome contributions from the community! To contribute to this project, plea
 
 ## Assets Requirements
 
+**You can copy the template folder directly and modify it directly.**
+
 Create a directory and use the name of the organisation, all lower case letters.
-All organization logos must be in JPG format and have dimensions of 300x300 pixels.
+
+All organization logos must be in **JPG** format and have dimensions of **300x300 pixels**.
 
 Example:
 ```
@@ -64,6 +69,7 @@ Example:
 │   ├── logo.jpg
 │   └── info.json
 ```
+
 
 ## License
 
