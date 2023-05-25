@@ -8,7 +8,6 @@ The goal is to provide an open-source platform for managing the organizational s
 
 Organizations are represented in JSON format with the name info.json and has the following properties:
 
-- `logo`: a string representing the path to the organization's logo, in 300x300 JPG/PNG format
 - `name`: a string representing the organization's name
 - `token`: a string representing the organization's token, if it does not exist, please fill in `null`
 - `intro`: a string providing a brief introduction to the organization, 20 characters or less
@@ -19,7 +18,6 @@ Organizations are represented in JSON format with the name info.json and has the
 
 ```json
 {
-    "logo": "/logo.jpg",
     "name": "Bitcoin",
     "token": "BTC",
     "intro": "Decentralized digital currency",
@@ -41,9 +39,9 @@ Organizations are represented in JSON format with the name info.json and has the
 }
 ```
 
-## Contributing
+## Submit information
 
-We welcome contributions from the community! To contribute to this project, please follow these steps:
+We welcome contributions from the community! To submit to this project, please follow these steps:
 
 1. Fork the repository
 2. Create a new branch for your feature
@@ -55,9 +53,8 @@ We welcome contributions from the community! To contribute to this project, plea
 
 **You can copy the template folder directly and modify it directly.**
 
-Create a directory and use the name of the organisation, all lower case letters.
-
-All organization logos must be in **JPG/PNG** format and have dimensions of **300x300 pixels**.
+* Create a directory using the organization's name, with all letters in lowercase. If there are spaces in the name, use _ instead.
+* All organization logos must be in **JPG/PNG** format with dimensions of **300x300 pixels**, and named logo.jpg or logo.png.
 
 Example:
 ```
@@ -67,6 +64,9 @@ Example:
 │   └── info.json
 ├── ethereum
 │   ├── logo.jpg
+│   └── info.json
+├── ethereum_name_service
+│   ├── logo.png
 │   └── info.json
 ```
 
